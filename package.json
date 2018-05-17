@@ -5,6 +5,7 @@
   "author": "Andrew Barba <abarba.77@gmail.com>",
   "main": "lib/index.js",
   "license": "MIT",
+  "bin": "./bin/cli.js",
   "engines": {
     "node": ">=6"
   },
@@ -18,7 +19,8 @@
     "bluebird": "3.5.1",
     "lodash": "4.17.10",
     "poloniex-api-node": "1.9.0",
-    "realm": "2.6.0"
+    "realm": "2.6.0",
+    "yargs-parser": "10.0.0"
   },
   "devDependencies": {
     "eslint": "4.19.1",
@@ -27,6 +29,7 @@
   },
   "scripts": {
     "lint": "npx eslint ./",
+    "start": "node ./bin/core.js",
     "test": "npx mocha --exit --bail --slow 1000 --timeout 5000 ./test/test.js"
   }
 }
