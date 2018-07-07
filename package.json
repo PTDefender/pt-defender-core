@@ -2,10 +2,9 @@
   "name": "pt-defender-core",
   "version": "1.0.0",
   "description": "Core component for PT Defender",
-  "author": "Andrew Barba <abarba.77@gmail.com>",
+  "author": "PTDefender <dev@ptdefender.com>",
   "main": "lib/index.js",
   "license": "MIT",
-  "bin": "./bin/cli.js",
   "engines": {
     "node": ">=6"
   },
