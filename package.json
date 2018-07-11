@@ -23,7 +23,7 @@
     "uuid": "3.3.2"
   },
   "devDependencies": {
-    "eslint": "5.0.1"
+    "eslint": "5.1.0"
   },
   "scripts": {
     "lint": "npx eslint ./",
