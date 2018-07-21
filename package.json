@@ -9,7 +9,7 @@
     "node": ">=6"
   },
   "repository": {
-    "url": "https://github.com/AndrewBarba/pt-defender-core"
+    "url": "https://github.com/PTDefender/pt-defender-core"
   },
   "dependencies": {
     "axios": "0.18.0",
