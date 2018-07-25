@@ -168,9 +168,9 @@ binance@1.3.3:
     underscore "^1.8.3"
     ws "^3.1.0"
 
-bittrex-node@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/bittrex-node/-/bittrex-node-1.0.0.tgz#fff1c951f64a3e82e09368f85579dbf3f6412305"
+bittrex-node@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/bittrex-node/-/bittrex-node-1.0.1.tgz#991a63b96cc5073f593fc5758915b1ea6f013fb2"
   dependencies:
     axios "0.18.0"
 
