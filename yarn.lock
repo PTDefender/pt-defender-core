@@ -83,8 +83,10 @@ arrify@^1.0.0:
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
 
 asn1@~0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
+  dependencies:
+    safer-buffer "~2.1.0"
 
 assert-plus@1.0.0, assert-plus@^1.0.0:
   version "1.0.0"
@@ -117,8 +119,8 @@ aws-sign2@~0.7.0:
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
 
 aws4@^1.6.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.7.0.tgz#d4d0e9b9dbfca77bf08eeb0a8a471550fe39e289"
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
 
 axios@0.18.0:
   version "0.18.0"
@@ -168,9 +170,9 @@ binance@1.3.3:
     underscore "^1.8.3"
     ws "^3.1.0"
 
-bittrex-node@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bittrex-node/-/bittrex-node-1.0.1.tgz#991a63b96cc5073f593fc5758915b1ea6f013fb2"
+bittrex-node@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bittrex-node/-/bittrex-node-1.0.2.tgz#354b0137ba1a37d3984785d0d88ce6ce07082e75"
   dependencies:
     axios "0.18.0"
 
@@ -180,10 +182,6 @@ bl@^2.0.0:
   dependencies:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
-
-bluebird@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -278,8 +276,8 @@ combined-stream@1.0.6, combined-stream@~1.0.5:
     delayed-stream "~1.0.0"
 
 commander@^2.16.0:
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -353,10 +351,11 @@ doctrine@^2.1.0:
     esutils "^2.0.2"
 
 ecc-jsbn@~0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
   dependencies:
     jsbn "~0.1.0"
+    safer-buffer "^2.1.0"
 
 es-abstract@^1.10.0:
   version "1.12.0"
@@ -409,9 +408,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.2.0.tgz#3901ae249195d473e633c4acbc370068b1c964dc"
+eslint@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.3.0.tgz#53695aca5213968aacdf970ccb231e42a2b285f8"
   dependencies:
     ajv "^6.5.0"
     babel-code-frame "^6.26.0"
@@ -444,7 +443,7 @@ eslint@5.2.0:
     path-is-inside "^1.0.2"
     pluralize "^7.0.0"
     progress "^2.0.0"
-    regexpp "^1.1.0"
+    regexpp "^2.0.0"
     require-uncached "^1.0.3"
     semver "^5.5.0"
     string.prototype.matchall "^2.0.0"
@@ -547,8 +546,8 @@ flat-cache@^1.2.1:
     write "^0.2.1"
 
 follow-redirects@^1.2.5, follow-redirects@^1.3.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.1.tgz#67a8f14f5a1f67f962c2c46469c79eaec0a90291"
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.2.tgz#5a9d80e0165957e5ef0c1210678fc5c4acb9fb03"
   dependencies:
     debug "^3.1.0"
 
@@ -662,8 +661,8 @@ iconv-lite@^0.4.17:
     safer-buffer ">= 2.1.2 < 3"
 
 ignore@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.2.tgz#0a8dd228947ec78c2d7f736b1642a9f7317c1905"
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.5.tgz#333535a20325ba4852c4ddb135d47392aa035e6d"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -1050,9 +1049,9 @@ regexp.prototype.flags@^1.2.0:
   dependencies:
     define-properties "^1.1.2"
 
-regexpp@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-1.1.0.tgz#0e3516dd0b7904f413d2d4193dce4618c3a689ab"
+regexpp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.0.tgz#b2a7534a85ca1b033bcf5ce9ff8e56d4e0755365"
 
 request@^2.81.0, request@^2.85.0:
   version "2.87.0"
@@ -1119,7 +1118,7 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, 
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2:
+"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
