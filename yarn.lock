@@ -274,10 +274,10 @@ caseless@~0.12.0:
     json-text-sequence "^0.1"
     nofilter "^0.0.3"
 
-ccxt@1.17.399:
-  version "1.17.399"
-  resolved "https://registry.yarnpkg.com/ccxt/-/ccxt-1.17.399.tgz#3fa9b16b362666f05d94cee1976de8111f43149e"
-  integrity sha512-NRrs3AtulFA6px+ICKQ29hYgWZyNw7NGCpPV/SfvsWQYL6f6qOOp8Ox0NEF8k62cqSG61uK5rkHTl4owofYH+A==
+ccxt@1.17.449:
+  version "1.17.449"
+  resolved "https://registry.yarnpkg.com/ccxt/-/ccxt-1.17.449.tgz#a58230b621aa4f856a2e87d4a8069a92e554744b"
+  integrity sha512-NQczAs/wugDU+EBc9LADReFtLjsTZyipAALVJ7ceXazDcvV3kElh+4iQYgYWZXiicG6fwiKjHojjOLH59XVCZw==
   dependencies:
     crypto-js "3.1.9-1"
     fetch-ponyfill "4.1.0"
@@ -514,10 +514,10 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.7.0.tgz#55c326d6fb2ad45fcbd0ce17c3846f025d1d819c"
-  integrity sha512-zYCeFQahsxffGl87U2aJ7DPyH8CbWgxBC213Y8+TCanhUTf2gEvfq3EKpHmEcozTLyPmGe9LZdMAwC/CpJBM5A==
+eslint@5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.8.0.tgz#91fbf24f6e0471e8fdf681a4d9dd1b2c9f28309b"
+  integrity sha512-Zok6Bru3y2JprqTNm14mgQ15YQu/SMDkWdnmHfFg770DIUlmMFd/gqqzCHekxzjHZJxXv3tmTpH0C1icaYJsRQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
