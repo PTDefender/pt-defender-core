@@ -217,10 +217,10 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-ccxt@1.18.437:
-  version "1.18.437"
-  resolved "https://registry.yarnpkg.com/ccxt/-/ccxt-1.18.437.tgz#15385a8aa9addc084eef4afa39b8196dbdee9852"
-  integrity sha512-FOSe+DFgYejrnIGFs/TUEfzHB3t07EhZooB6lbZKT46Fv3XHpGM3K0i50JYbn9EakfIIto0R/UyLgM2u6b9cKw==
+ccxt@1.18.527:
+  version "1.18.527"
+  resolved "https://registry.yarnpkg.com/ccxt/-/ccxt-1.18.527.tgz#9a0ac141805cd7181e10e9f236deb9b4b89be93b"
+  integrity sha512-rC99C458B22FAmw8u47Ik6JFN5xVtXgPsnN4AbwZc8kY8b5YKcuv0JSDR0J5R1+2JOZCNCwBZqDpdM2dN14fcA==
   dependencies:
     crypto-js "3.1.9-1"
     fetch-ponyfill "4.1.0"
