@@ -22,10 +22,20 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.3",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint . && pretty-quick --staged"
+    }
   },
   "scripts": {
-    "lint": "npx eslint ./",
+    "lint": "eslint .",
     "start": "node ./bin/core.js",
     "test": "npx mocha --exit --bail --slow 1000 --timeout 5000 ./test/test.js"
   }
