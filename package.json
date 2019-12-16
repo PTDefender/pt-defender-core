@@ -1,6 +1,6 @@
 {
   "name": "pt-defender-core",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Core component for PT Defender",
   "author": "PTDefender <dev@ptdefender.com>",
   "main": "lib/index.js",
